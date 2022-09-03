@@ -1,3 +1,6 @@
+//This is my menuapp assignment for week 5. I choose to do a menu of cars and car dealers.
+
+
 class Car {
     constructor(make, model, year, accessories) {
         this.make = make;
