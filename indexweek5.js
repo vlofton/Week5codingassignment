@@ -47,7 +47,7 @@ class Menu {
                     this.selectCarDealer();
                     break;
                 case '3':
-                    this.selectAccessories();
+                    this.createAccessories();
                     break;
                 case '4':
                     this.displayCars();
@@ -65,12 +65,12 @@ class Menu {
 
     showMenuOptions() {
         return prompt(`
-            0) exit
-            1) select make and model
-            2) select car dealer
-            3) select accessories
-            4) display cars
-            5) delete selection
+            0) Exit
+            1) Select Make and Model
+            2) Select Car Dealer
+            3) Create Accessories
+            4) View Cars
+            5) Delete selection
         
         `);
     }
